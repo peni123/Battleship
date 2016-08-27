@@ -1,0 +1,123 @@
+@CHARSET "UTF-8";
+*{
+padding: 0px 0px;
+margin:0px 0px;	
+font-family: 'arial'	
+}
+#grid {
+	width: 860px;
+	height: 860px;
+	margin-left: 30px;
+	border: 1px solid black;
+	padding: 0px 0px;
+	margin:0px 0px;	
+	margin-right: 50px;
+	background-image: url("0013-sea-water-texture-seamless-hr.jpg") ;
+	float:left;
+}
+.row {
+	width: 40px;
+	height:40px;
+	position: relative;	
+	float:left;
+	padding: 0px 0px;
+	margin:0px 0px;	
+}
+
+.cell {
+	width: 40.65px;
+	height: 40.65px;
+	border: 1px solid #41415b;
+	
+	padding: 0px 0px;
+	margin:0px 0px;	
+	float:left;
+	font-size:0.9em;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+}
+
+.shipIsHit {
+	background-color: #00ff00;
+}
+
+
+.ShipIsSailing {
+
+}
+.ShipIsSTILLSailing {
+background-color: #80ffff;
+}
+.input [placeholder]{
+	margin-left: 50px;
+	width: 220px;
+	height: 220px;
+	float:left;
+	
+}
+.btn {
+	margin-left: 30px;
+	background-size: 120px 120px;
+	width: 120px;
+	height: 120px;
+	background-image: url("ship_target.png") ;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 50%;
+	color: white;
+	font-size: 0.9em;
+	float:left;
+}
+img {
+	margin-left: 50px;
+	background-image: url("ship_target.png") ;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	border: none;
+	border-radius: 50%;
+	
+}
+p {
+	
+	color: black;
+	
+}
+.missed {
+	background-color: #ff0000;
+}
+#text {
+	width: 315px;
+	height: 115px;
+	color: black;
+	font-size: 1.3em;
+	overflow: hidden;
+}
+#missed_hits-counter{
+	width: 80px;
+	height: 50px;
+	color:  #efefef;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	margin-left: 75%;
+	}
+#ammo-counter{width: 80px;
+	height: 50px;
+	color:  #efefef;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	margin-left: 1%;
+	margin-bottom:1%;
+	}
+#deadShips-counter{width: 80px;
+	height: 50px;
+	color:  #efefef;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	margin-left: 1%;
+	}
