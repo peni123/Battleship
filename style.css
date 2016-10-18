@@ -1,0 +1,131 @@
+@CHARSET "UTF-8";
+*{
+padding: 0px 0px;
+margin:0px 0px;	
+font-family: 'arial'	
+}
+#grid {
+	width: 860px;
+	height: 860px;
+	margin-left: 30px;
+	border: 1px solid black;
+	padding: 0px 0px;
+	margin:0px 0px;	
+	margin-right: 50px;
+	background-image: url("0013-sea-water-texture-seamless-hr.jpg") ;
+	float:left;
+}
+.row {
+	width: 40px;
+	height:40px;
+	position: relative;	
+	float:left;
+	padding: 0px 0px;
+	margin:0px 0px;	
+}
+
+.cell {
+	width: 40.65px;
+	height: 40.65px;
+	border: 1px solid #41415b;
+	
+	padding: 0px 0px;
+	margin:0px 0px;	
+	float:left;
+	font-size:0.9em;
+	font-weight: bold;
+	color:white;
+	text-align: center;
+}
+
+.shipIsHit {
+	background-color: #00ff00;
+}
+
+
+.ShipIsSailing {
+
+}
+.ShipIsSTILLSailing {
+background-color: #80ffff;
+}
+#inp-y > [placeholder]{
+	margin-left: 250px;
+	width: 220px;
+	height: 220px;
+	float:left;
+	color:black;
+	border: 1px solid black;
+	
+}
+.btn {
+	
+	background-size: 90px 90px;
+	width: 90px;
+	height: 90px;
+	background-image: url("ship_target.png") ;
+	background-repeat: no-repeat;
+	border: none;
+	border-radius: 50%;
+	color: blue;
+	font-size: 0.9em;
+	font-weight:bold;
+	float:left;
+}
+img {
+	margin-left: 50px;
+	background-image: url("ship_target.png") ;
+	background-size: 150px 150px;
+	background-repeat: no-repeat;
+	width: 150px;
+	height: 150px;
+	border: none;
+	border-radius: 50%;
+	
+}
+p {
+	
+	color: black;
+	
+}
+.missed {
+	background-color: #ff0000;
+}
+#text {
+	width: 315px;
+	height: 115px;
+	color: black;
+	font-size: 1.3em;
+	overflow: hidden;
+}
+#missed_hits-counter{
+	width: 30px;
+	height: 20px;
+	color:  black;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	
+	}
+#ammo-counter{width: 30px;
+	height: 20px;
+	color:  black;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	
+	}
+#deadShips-counter{width: 30px;
+	height: 20px;
+	color:  black;
+	font-size: 0.9em;
+	border: 1px solid #efefef;
+	float:left;
+	
+	}
+.counters{
+	float:left;
+}
+.counters-holder{
+	float:left;
+}
